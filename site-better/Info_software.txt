@@ -1,0 +1,17 @@
+	
+> solicitante   | classe
+> setor	        | classe
+> tecnico_Resp  | classe
+> categoria	    | classe
+> demanda       | classe
+|--- ent_Data	
+|--- ent_Hora
+|--- ent_Info
+|--- resumo_demanda
+|--- verif_Data	
+|--- verif_Hora	
+|--- status	
+|--- conc_Data	
+|--- conc_Hora	
+|--- conc_Obs
+

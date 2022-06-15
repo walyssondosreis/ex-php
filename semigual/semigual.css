@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* background-color: #11012D; */
+
+  background-image: url(assets/picture/backvox.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.form-signin {
+  max-width: 450px;
+  padding: 10px;
+  /* border-color:#F63C53; */
+  /* border-color:#ffffff; */
+  
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="user"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.botao {
+  position: relative;
+  width: 90px;
+  text-align: center;
+  padding: 1px;
+}
+#tabela_chamados{
+  max-width: 900px;
+  padding: 10px;
+}

@@ -1,0 +1,54 @@
+- Criar dois tipos de formulário:
+    |- Simplicado: Para entrada usuários comuns
+    |- Avançado: Paara entrada de tecnicos
+
+===================================
+CATEGORIA: SISTEMAS
+---------------
+Gerenet *
+Kentro *
+Stratws
+PABX Ironvox
+PABX Fastway
+Site Vox
+Sistema Vendas/Migração
+Sistema Viabilidade
+Sistema Elite(VES)
+Locaweb (Email)
+Mega-Whats
+Minha visita
+Power BI
+Ole TV
+Gerenet (VES)
+Domínio (Usuarios e Pastas na rede)
+Clube de compras
+Vox Educa
+*Telefonia
+*Financeiro
+*Acessório
+*Impressora
+*Rede
+
+CATEGORIA: DISPOSITIVOS
+----------
+Computador/Notebook/Perifericos
+Impressora/Scanner
+Telefone/Ramal
+Rede/Cabos/Pontos
+TV/Monitor
+
+CATEGORIA: SERVIÇOS
+-------------
+Criação de acessos
+Remoção de acessos
+Direitos de usuário
+Configuração/Montagem/Preparação de equipamentos
+Avaliação de equipamento/hardware
+
+
+
+
+
+
+
+
