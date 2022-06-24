@@ -66,7 +66,6 @@ INSERT INTO `chamados` (`id`, `usuario`, `tecnico`, `setor`, `categoria`, `siste
 (60, 'bethyennem', NULL, '5', '4', '', 'Instalar software OBS no notebook para gravação de treinamentos', NULL, '2022-05-31 08:10:00', NULL, NULL, NULL, NULL, NULL),
 (61, 'bethyennem', NULL, '5', '2', '', 'Beth solicitou auxilio em formulas e formatação de planilha do Excel', NULL, '2022-05-31 11:56:00', NULL, NULL, NULL, NULL, NULL),
 (62, 'jessicad', NULL, '1', '1', '4-5', 'Ambos os Kentros com filas deconectadas.', NULL, '2022-06-02 08:10:00', NULL, NULL, NULL, NULL, NULL),
-(63, 'jessicad', NULL, '1', '2', '', 'Solicita alteração para nova logo na assinatura de email.', NULL, '2022-11-25 09:43:00', NULL, NULL, NULL, NULL, NULL),
 (64, 'jessicad', NULL, '1', '4', '', 'Solicita ajuda em sala de reunião para configurar setup.', NULL, '2022-06-01 15:00:00', NULL, NULL, NULL, NULL, NULL),
 (65, 'jessicad', NULL, '1', '4', '', 'Solicita instalação do programa Sicoob em seu PC.', NULL, '2022-05-30 10:39:00', NULL, NULL, NULL, NULL, NULL),
 (66, 'jessicad', NULL, '1', '4', '', 'Solicita intalação/Configuração de impressora Financeiro, Sicoob e Elite em seu computador.', NULL, '2022-06-03 08:24:00', NULL, NULL, NULL, NULL, NULL);
