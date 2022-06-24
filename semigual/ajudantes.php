@@ -1,35 +1,5 @@
 <?php
-function reduz_sistemas($sistemas){
-    $novo_nome="";
-    foreach($sistemas as $sistema){
-        $nome=explode(' ',$sistema);
-        if(!str_contains($novo_nome,$nome[0])){
-            $novo_nome.="-";
-            $novo_nome.= $nome[0];
-            $novo_nome.= " ";
-            $novo_nome.= $nome[1];
-            $novo_nome.= "-";
-        }
-        else{
-            $novo_nome.="-";
-            $novo_nome.=$nome[1];
-            $novo_nome.="-";
-        }
-        // if(in_array($nome[0],explode('',$novo_nome))){
-        //     $novo_nome.=$nome[1];
-        // }else{
-        //     $novo_nome.=implode($nome)"-";
-        // }
-        
-    }
-    //rtrim($novo_nome,'-');
-    //ltrim($novo_nome,'-');
-    
-    //print_r($novo_nome);die();
-    return explode('-',$novo_nome);
 
-
-}
 function traduzir_datah($datah)
 {
     $separaDH = explode(' ', $datah);
@@ -55,6 +25,9 @@ function traduz_categoria($id, $categorias)
 }
 function traduz_sistema($ids, $sistemas)
 {
+    // $ids é uma string '1-2-3'
+    // $sistemas é um array de arrays
+
     $ids_vt = explode('-', $ids);
     $nome_sistemas = array();
 
@@ -66,7 +39,7 @@ function traduz_sistema($ids, $sistemas)
             return '(Não Definido)';
         }
     }
-    $sis=reduz_sistemas($nome_sistemas);
-    return implode(' & ',$sis);
+    
+    return implode(' & ',$nome_sistemas);
 
 }

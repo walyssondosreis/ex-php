@@ -17,8 +17,8 @@ include "ajudantes.php";
                     <th scope="col">Usuário</th>
                     <th scope="col">Solicitação</th>
                     <th scope="col">Sistema(s)</th>
-                    <th scope="col">Técnico Resp.</th>
-                    
+                    <th scope="col">Técnico</th>
+                    <th scope="col">Chamado</th>
                 </tr>
             </thead>
             <tbody>
@@ -33,7 +33,12 @@ include "ajudantes.php";
                         <td><?php echo traduz_categoria($chamado_tb['categoria'],$categorias)?></td>
                         <td><?php  echo traduz_sistema($chamado_tb['sistemas'],$sistemas)?></td>
                         <td><?php  echo $chamado_tb['tecnico']?></td>
-
+                        <td>
+                            <a href="tabela.php"><img src="assets/picture/exibir.svg" width="30" height="30"></a>
+                            <a href="tabela.php"><img src="assets/picture/editar.png" width="30" height="30"></a>
+                            <a href="tabela.php"><img src="assets/picture/tranferir.png" width="30" height="30"></a>
+                            <a href="tabela.php"><img src="assets/picture/arquivar.png" width="30" height="30"></a>
+                        </td>
                     </tr>
                 <?php endforeach ?>
                 <!--  -->
