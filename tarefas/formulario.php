@@ -39,6 +39,10 @@
             Tarefa concluída:
             <input type="checkbox" name="concluida" value=0 <?php echo ($tarefa['concluida'] ? 'checked' : '') ?>>
         </label>
+        <label for="">
+            Lembrete por e-mail:
+            <input type="checkbox" name="lembrete" value="1">
+        </label>
         <input type="submit" value=<?php echo ($tarefa['id'] > 0) ? 'Atualizar' : 'Cadastrar' ?>>
     </fieldset>
 </form>

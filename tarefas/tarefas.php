@@ -1,5 +1,5 @@
 <?php
-
+include "config.php";
 include "banco.php";
 include "ajudantes.php";
 
@@ -43,6 +43,9 @@ if (tem_post()) {
     }
     if (!$tem_erros) {
         gravar_tarefa($conexao, $tarefa);
+        if(isset($_POST['lembrete']) && $_POST['lembrete']=='1'){
+            enviar_email($tarefa);
+        }
         header('Location: tarefas.php');
         die();
         //print_r($tarefa); exit();

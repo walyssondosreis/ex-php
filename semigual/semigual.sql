@@ -1,5 +1,6 @@
 
--- banco: semigual
+-- Cria banco de dados
+CREATE DATABASE semigual CHARACTER SET utf8 COLLATE utf8_general_ci;
 ------------
 
 CREATE TABLE chamados(

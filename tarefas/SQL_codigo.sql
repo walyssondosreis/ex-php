@@ -1,3 +1,6 @@
+-- Cria banco de dados
+CREATE DATABASE tarefas CHARACTER SET utf8 COLLATE utf8_general_ci;
+
 -- Cria tabela de tarefas
 CREATE TABLE tarefas (
     id          INTEGER AUTO_INCREMENT PRIMARY KEY,
