@@ -1,8 +1,9 @@
 <?php
 
-    require "Usuario.php";
+  require 'autoload.php';
 
-    $usuario= new Alura\Usuario($_POST['nome']);
+    $usuario= new App\Alura\Usuario($_POST['nome']);
+    $contato= new App\Alura\Contato($_POST['email']);
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +23,7 @@
 <ul class="list-group">
     <li class="list-group-item">Primeiro nome: <?php  echo $usuario->getNome()  ?></li>
     <li class="list-group-item">Sobrenome: <?php  echo $usuario->getSobrenome() ?></li>
-    <li class="list-group-item">Usuário: </li>
+    <li class="list-group-item">Usuário: <?php echo $contato->getNomeUsuario() ?> </li>
     <li class="list-group-item">Senha: </li>
     <li class="list-group-item">Telefone: </li>
     <li class="list-group-item">Email: </li>
