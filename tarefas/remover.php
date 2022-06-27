@@ -3,7 +3,7 @@
 include "config.php";
 include "banco.php";
 
-remover_tarefa($conexao,$_GET['id']);
+remover_tarefa($mysqli,$_GET['id']);
 
 header('Location: tarefas.php');
 die();
