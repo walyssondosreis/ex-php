@@ -1,7 +1,7 @@
 <?php
 
 
-// $conexao = mysqli_connect(BD_SERVIDOR,BD_USUARIO,BD_SENHA, BD_BANCO);
+
 $mysqli = new mysqli(BD_SERVIDOR,BD_USUARIO,BD_SENHA, BD_BANCO);
 
 if (mysqli_connect_errno()) {
@@ -26,7 +26,6 @@ function gravar_anexo($mysqli, $anexo)
         {$anexo['tarefa_id']},
         '{$anexo['nome']}',
         '{$anexo['arquivo']}'
-,
         )
     ";
     $mysqli->query($sqlGravar);
