@@ -1,0 +1,16 @@
+{
+    "name": "walyssondosreis/curso-composer",
+    "description": "Exercicio composer do curso da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Walysson dos Reis",
+            "email": "walyssondosreis@email.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler": "^6.1",
+        "symfony/css-selector": "^6.1"
+    }
+}
