@@ -44,7 +44,8 @@ if (tem_post()) {
         $tarefa['concluida'] = 0;
     }
     if (!$tem_erros) {
-        $tarefas->gravar_tarefa($conexao, $tarefa);
+        $tarefas->gravar_tarefa($tarefa);
+       // echo var_dump($tarefas);die();
         if(isset($_POST['lembrete']) && $_POST['lembrete']=='1'){
             enviar_email($tarefa);
         }

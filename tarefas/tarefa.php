@@ -28,7 +28,7 @@ if(tem_post()){
         }
     }
     if(! $tem_erros){
-        gravar_anexo($conexao, $anexo);
+        gravar_anexo($mysqli, $anexo);
     }
 }
 
